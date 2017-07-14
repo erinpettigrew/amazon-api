@@ -1,8 +1,8 @@
-== README
+== Amazon API
 
-A simple command line tool for making requests to Amazon's Product API.
+This is a simple command line tool for making requests to Amazon's Product API. To begin, you'll need the appropriate keys for the Associates and PAPI programs.
 
-* amazon-api.rb is a class that accesses the API given a variety of inputs: ASIN, keyword, category, etc. It returns product attributes for informing a product object.
+* amazon-api.rb is a class that contains methods for querying the Amazon Product API given a variety of inputs: ASIN, keyword, category, etc. It returns product attributes for informing a product object.
 
 * products.rb is a class that instantiates a product object from the return of an Amazon PAPI request using the AmazonAPI class.
 
